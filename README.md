@@ -34,4 +34,7 @@ Refer  **BasicThreading.java**
 
 Refer **ThreadUsingRunnable.java**
 
+**Difference between Thread class and Runnable Interface**
 
+
+One significant distinction between Thread and Runnable arises from Java's support for single inheritance. A class extending Thread cannot extend any other class, limiting its flexibility. Conversely, a class can implement multiple interfaces, allowing it to implement Runnable and extend another class if necessary.
