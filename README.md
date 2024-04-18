@@ -25,3 +25,13 @@ Concurrency is about dealing with multiple things at once (like handling multipl
 Parallelism is about doing multiple things at once (like processing data). 
 
 Correctly leveraging these concepts in Java networking leads to more responsive, efficient, and scalable network applications.
+
+1.By extending Thread Class
+
+Refer  **BasicThreading.java**
+
+2.By implementing Runnable Interface
+
+Refer **ThreadUsingRunnable.java**
+
+
