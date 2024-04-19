@@ -2,7 +2,7 @@ public class ThreadConstructor {
     public static void main(String[] args) {
         MyThread t1 = new MyThread("Thread1");
 
-    MyThread3 t2 = new MyThread3();
+    MyThread3 t2 = new MyThread3(null);
     Thread a = new Thread(t2);
 
     t1.start();
@@ -31,7 +31,7 @@ class MyThread extends Thread{
 class MyThread3 implements Runnable{
 
     public MyThread3(Runnable r){
-        super();
+
 
     }
     public void run(){
